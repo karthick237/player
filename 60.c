@@ -3,9 +3,13 @@ int main()
 {
 char s[10000],t[10000];
  int i,c=0,l,l2;
+
  gets(s);
+ 
  gets(t);
+ 
  l=strlen(t);
+ 
  l2=strlen(s);
  
  if(l==l2)
